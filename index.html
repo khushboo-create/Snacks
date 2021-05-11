@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <title>Biggchips</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+         $(window).scroll(function(){
+             if($(window).scrollTop() > 300)
+             {
+                 $('i').css({
+                     "opacity":"1","pointer-events":"auto"
+                 });
+                 
+             }else{
+                 $('i').css({
+                    "opacity":"0","pointer-events":"none"
+                 });
+             }
+         });
+         $('i').click(function(){
+             $('html').animate({scrollTop:0},500);
+         });
+        });
+        
+    </script>
+</head>
+
+<body>
+    <nav class="navbar  ">
+        
+        <label class="logo">BIGGCHIPS</label>
+       
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About us </a></li>
+            <li><a href="#contact">Contact us </a></li>
+        </ul>
+    </nav>
+    <!-- <section class="  background"> -->
+        <i class="fas fa-chevron-up"></i>
+    <div class=" firstsection " id="popcorn">
+        <div class="firsthalf">
+            <p class="parah1"> Popcorn</p>
+            <p class="poppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita porro corporis
+                sapiente nesciunt fuga voluptatem non. Qui quis aspernatur vitae expedita provident deserunt sint illum,
+                omnis rerum. Consectetur earum, adipisci reiciendis temporibus deserunt explicabo delectus, fuga, vel
+                repellat sint ullam?</p>
+            <button class=" btn-first">Order Now</button>
+        </div>
+        <div class="secondhalf">
+            <img src="Images/popcorn-red-background-box-movie-flying-out-copy-space-78354377.jpg" alt="Popcorn">
+        </div>
+
+    </div>
+
+
+    <div class=" subsectionsecond " id="RoastedAlmond">
+        <div class=" almondbtn">
+            
+            <p class="para">Roasted Almond</p>
+            <p class="poppara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita porro corporis
+                sapiente nesciunt fuga voluptatem non. Qui quis aspernatur vitae expedita provident deserunt sint illum,
+                omnis rerum. Consectetur earum, adipisci reiciendis temporibus deserunt explicabo delectus, fuga, vel
+                repellat sint ullam?</p>
+
+            <button class=" btn-second">Order Now</button>
+        </div>
+        <div class=" almond">
+            <img src="Images/Spicy-pan-roasted-almonds-6.jpg" alt="Roasted almond" class="laptopone">
+        </div>
+    </div>
+    <div class="almond-background"></div>
+    <div class=" subsectionthird " id="Chips">
+
+        <div class="chipsdiv">
+            <p class="parah2"> Chips</p>
+            <p class=" chipspara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita porro corporis
+                sapiente nesciunt fuga voluptatem non. Qui quis aspernatur vitae expedita provident deserunt sint illum,
+                omnis rerum. Consectetur earum, adipisci reiciendis temporibus deserunt explicabo delectus, fuga, vel
+                repellat sint ullam?</p>
+            <div class="buttonone"><button class=" btn-third">Order Now</button></div>
+        </div>
+        <div class="secondhalfchips">
+            <img src="Images/smoked-paprika-potato-chips.jpg" alt="chips">
+        </div>
+    </div>
+    </div>
+    <div class="chips-background"></div>
+    <!-- </section> -->
+
+    <section class="product " id="products">
+        <h1 class="allproduct primary">All Products</h1>
+        <div id="product">
+            <div class="box">
+                <img src="Images/popcorn-red-background-box-mov.jpg" alt="popcorn" class="popcorn">
+                <h2 class="allproduct head1">Popcorn</h2>
+                <div class="ordernowbtn1"><a href="#popcorn" class=" btn-popcorn">Checkout</a></div>
+            </div>
+            <div class="box">
+                <img src="Images/Webp.net-resizeimage.jpg" class="roastedalmond">
+                <h2 class="allproduct head2">Roasted Almond</h2>
+                <div class="ordernowbtn2"><a href="#RoastedAlmond" class=" btn-almond">Checkout</a></div>
+            </div>
+            <div class="box">
+                <img src="Images/Webp.net-resizeimage (1).jpg" alt="chips" class="chips">
+                <h2 class="allproduct head3">Chips</h2>
+                <div class="ordernowbtn3"><a href="#Chips" class=" btn-chips">Checkout</a></div>
+            </div>
+        </div>
+    </section>
+     <!-- <section class=" thirdsection subcolor" id="about"> 
+        <div class="thirdsectionabout">
+             <!-- <h1 class="allproduct primary abouthead">About Us</h1>   -->
+            <!-- <div class="aboutus"> -->
+                   <!-- <h1 class="allproduct  abouthead">About Us</h1>     -->
+                <!-- <p class="paragraph allproduct">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita porro -->
+                    <!-- corporis sapiente nesciunt fuga voluptatem non. Qui quis aspernatur vitae expedita provident -->
+                    <!-- deserunt sint illum, omnis rerum. Consectetur earum, adipisci reiciendis temporibus deserunt -->
+                    <!-- explicabo delectus, fuga, vel repellat sint ullam?Lorem ipsum dolor sit amet consectetur adipisicing -->
+                    <!-- elit. Minima non illum reprehenderit. Porro voluptatibus totam dolorum eaque, quos at maiores!</p> -->
+                <!-- <div class="icon"> -->
+                    <!-- <a href=""><img src="Images/facebook.svg" class="facebook"></a> -->
+                    <!-- <a href=""><img src="Images/twitter.svg" class="twitter"></a> -->
+
+                    <!-- <a href=""><img src="Images/instagram (1).svg" class="instagram"></a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="about"> -->
+                <!-- <img src="Images/how-to-write-a-profile 1.jpg" alt="about us" class="aboupic"> -->
+            <!-- </div> -->
+        <!-- </div> -->
+     <!-- </section>   -->
+   <section class="aboutsection" id="about">
+       <h1>About Us</h1>
+       <div class="aboutdiv">
+           <div class="aboutpara">
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur suscipit error repudiandae doloremque ullam molestias quibusdam ab ducimus, nam officia ipsum libero dolorem beatae quod quaerat accusamus placeat quo fuga.</p>
+           
+              <div class="socialmedia-icon">
+                <a href="http://facebook.com"><img src="Images/facebook.svg" class="facebook"></a> 
+                     <a href="http://twitter.com"><img src="Images/twitter.svg" class="twitter"></a> 
+
+                     <a href="http://instagram.com"><img src="Images/instagram (1).svg" class="instagram"></a> 
+               </div>
+         </div>
+       <div class="aboutimg" > 
+                 <img src="Images/how-to-write-a-profile 1.jpg" alt="about us" class="aboupic"> 
+             </div> 
+     </div>
+   </section>
+
+     <!-- contact section -->
+    <section class="contact" id="contact">
+        <div>
+            <h1 class="contacthead">Contact Us</h1>
+        </div>
+        <div>
+            <p class="msgone"> Feel free to contact and feedback related to your experience with<span
+                    class="Biggchips">BIGGCHIPS</span> </p>
+
+        </div>
+
+        <div class="form">
+            <!-- <input type="text" name="name" id="name" placeholder=" Your Name"> -->
+            
+            <!-- <input type="email" name="email" id="email" placeholder="Your Email"> -->
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <textarea id="Subject" placeholder="Your Message"></textarea> 
+            <button class=" btn-submit">SEND</button>
+        </div>
+        <div class="rectangle">
+        </div>
+        <div class="addinfo">
+            <h2 class="Address">Address</h2>
+            <p class="ofc">Office: XYZ/30 B-Block<br>Email: example@xyz.com<br>Mobile: 0123456789</p>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <label class="logo">BIGGCHIPS</label>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="">Your Orders </a></li>
+            <li><a href="#contact">Contact us </a></li>
+        </ul>
+        <div class="rectanglefooter">
+        </div>
+        <div>
+            <p class="txtfooter">All ©Copyright Rserved 2021</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+   
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
